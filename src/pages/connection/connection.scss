@@ -1,0 +1,64 @@
+page-connection {
+}
+ion-input.salut{
+  margin-top: 120%;
+      margin-left: 3%;
+      border-bottom: solid 1px grey;
+      margin-right: 10%;
+      font-variant: small-caps;
+      font-weight: 400;
+      font-size: 1.2em;
+      margin-bottom: 3%;
+}
+ion-input.salut1{
+  margin-left: 3%;
+  border-bottom: solid 1px grey;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  font-variant: small-caps;
+  font-weight: 400;
+  font-size: 1.2em;
+
+}
+
+button{
+  background-color: #0FAD03;
+  border-radius: 5px;
+  width: 80%;
+  height : 8%;
+  margin : auto 10%;
+  font-variant: small-caps;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #FFFFFF;
+}
+.back{
+  background-image: url("../../assets/imgs/logo.png");
+background-size: cover;
+}
+.card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+}

@@ -5,7 +5,8 @@ import { SplashScreen } from '@ionic-native/splash-screen'
 import { StatusBar } from '@ionic-native/status-bar'
 
 import { MyApp } from './app.component'
-import { HomePageModule } from '../pages/home/home.module'
+//import { HomePage } from '../pages/home/home' <==== on supprime cette ligne
+import { SignInPageModule } from '../pages/sign-in/sign-in.module' // on importe le module
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { HomePageModule } from '../pages/home/home.module'
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    HomePageModule,
+    SignInPageModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
